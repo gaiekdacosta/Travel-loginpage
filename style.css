@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+ 
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: #01BEFE;
+     font-family: 'Arimo', sans-serif;
+     color: rgb(46, 46, 46);
+     overflow: hidden;
+ }
+
+ h1 {
+    position: absolute;
+    font-size: 45px;
+    margin: 25vh 18vw;
+}
+
+ img {
+     margin: -630px 55vw;
+     height: 350px;
+ }
+
+ h2 {
+     position: absolute;
+     font-size: 20px;
+     margin: 32vh 6.5vw;
+ }
+
+ form {
+     display: flex;
+     flex-direction: column;
+     margin: 35vh 15vh;
+ }
+
+ input {
+     margin: 10px;
+     border: none;
+     text-align: center;
+     background-color: rgb(216, 216, 216);
+     border-radius: 20px;
+     width: 350px;
+     height: 50px;
+}
+
+ .btn {
+     cursor: pointer;
+     font-weight: bold;
+     background-color: #FFDD00;
+ }
+
+ .btn:hover {
+     background-color: #FF7D00;
+     transition: 0.5s;
+ }
+
+ @media (max-width: 600px) {
+
+    h1 {
+        margin: 20vw 16vh;
+    }
+
+    h2 {
+        white-space: nowrap;
+        font-size: 14px;
+        margin: 37vw 5.5vh;
+    }
+
+    form{
+        display: flex;
+        margin: 20vh 10vw;
+    }
+
+    input {
+        width: 300px;
+        border-radius: 30px;
+        height: 70px;
+    }
+
+    img {
+        margin: -30vw 11vh;
+        height: 150px;
+    }
+
+ }
