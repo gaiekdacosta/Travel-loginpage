@@ -11,26 +11,24 @@
  }
 
  h1 {
-    position: absolute;
     font-size: 45px;
-    margin: 25vh 18vw;
+    margin: 26vh 18vw;
 }
 
  img {
-     margin: -630px 55vw;
+     margin: -590px 55vw;
      height: 350px;
  }
 
  h2 {
-     position: absolute;
      font-size: 20px;
-     margin: 32vh 6.5vw;
+     margin: -25vh 6.5vw;
  }
 
  form {
      display: flex;
      flex-direction: column;
-     margin: 35vh 15vh;
+     margin: 28vh 15vh;
  }
 
  input {
@@ -54,21 +52,21 @@
      transition: 0.5s;
  }
 
- @media (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
 
     h1 {
-        margin: 20vw 16vh;
+        margin: 25vw 16vh;
     }
 
     h2 {
         white-space: nowrap;
         font-size: 14px;
-        margin: 37vw 5.5vh;
+        margin: -24vw 5.5vh;
     }
 
     form{
         display: flex;
-        margin: 20vh 10vw;
+        margin: 15vh 10vw;
     }
 
     input {
@@ -82,4 +80,33 @@
         height: 150px;
     }
 
+ }
+
+ @media only screen and (max-width: 400px) {
+    
+    h1 {
+        display: fixed;
+        margin: 28vw 16vh;
+    }
+
+    h2 {
+        font-size: 11px;
+        margin: -25vw 8vh;
+    }
+
+    form {
+        display: block;
+        margin: 15vh 5vw;
+        height: 350px;
+    }
+
+    input {
+        width: 300px;
+        border-radius: 30px;
+    }
+
+    img {
+        margin: -23vw 13vh;
+        height: 120px;
+    }
  }
